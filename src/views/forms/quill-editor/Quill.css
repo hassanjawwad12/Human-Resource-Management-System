@@ -1,0 +1,86 @@
+.ql-container {
+  min-height: 200px;
+  border-radius: 0 0 20px 20px;
+}
+.ql-toolbar.ql-snow {
+  border-radius: 20px 20px 0 0;
+}
+.darkbg .ql-container.ql-snow,
+.darkbg .ql-toolbar.ql-snow,
+.darkbg .ql-snow .ql-tooltip input[type='text'] {
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+.darkbg .ql-snow .ql-picker:not(.ql-color-picker):not(.ql-icon-picker) svg,
+.darkbg .ql-snow.ql-toolbar button svg,
+.ql-snow .ql-toolbar button svg {
+  filter: brightness(0) invert(1);
+}
+
+.darkbg .ql-snow .ql-picker,
+.darkbg .ql-snow .ql-tooltip input[type='text'] {
+  color: white;
+}
+
+.darkbg .ql-snow .ql-picker-options,
+.darkbg .ql-snow .ql-tooltip,
+.darkbg .ql-snow .ql-tooltip input[type='text'] {
+  background-color: #484b52;
+}
+
+.darkbg .ql-snow .ql-tooltip[data-mode='link']::before {
+  color: white;
+}
+
+.ql-editor,
+.ql-snow * {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 16px;
+}
+
+.ql-editor.ql-blank::before {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #777e89;
+}
+
+.ql-container.ql-snow {
+  border: 0;
+}
+
+.ql-toolbar.ql-snow {
+  border-width: 0 0 1px 0;
+}
+
+.ql-toolbar.ql-snow .ql-picker-label,
+.ql-toolbar.ql-snow .ql-picker-options {
+  border: 0;
+}
+
+.ql-snow .ql-picker.ql-expanded .ql-picker-options {
+  top: 33px;
+}
+
+.ql-snow .ql-picker-options {
+  padding: 5px 19px;
+  box-shadow: 0 15px 20px rgb(0 0 0 / 12%);
+  border-radius: 9px;
+}
+
+.ql-snow .ql-picker.ql-expanded .ql-picker-label {
+  color: inherit;
+}
+
+.ql-snow .ql-tooltip {
+  left: 0 !important;
+  border: 0;
+  box-shadow: 0 5px 15px rgb(0 0 0 / 12%);
+  border-radius: 5px;
+}
+.ql-snow .ql-tooltip input[type='text'] {
+  height: auto;
+  padding: 5px 8px;
+  border-radius: 5px;
+  outline: 0;
+}

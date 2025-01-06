@@ -1,0 +1,13 @@
+.centerThumb .slick-current img{
+  border:2px solid rgba(0,0,0,1);
+}
+.slick-prev:before, .slick-next:before{
+  color:#2b2b2b
+}
+.slick-next{
+  right:15px
+}
+.slick-prev{
+  left:15px;
+  z-index: 1;
+}

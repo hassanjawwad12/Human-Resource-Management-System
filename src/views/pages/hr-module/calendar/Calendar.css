@@ -1,0 +1,136 @@
+.rbc-event {
+  font-size: smaller;
+}
+
+.rbc-event.event-azure {
+  background-color: #1a97f5;
+}
+
+.rbc-event.event-default {
+  background-color: #615dff;
+}
+
+.rbc-event.event-red {
+  background-color: #fc4b6c;
+}
+
+.rbc-event.event-green {
+  background-color: #39b69a;
+}
+
+.rbc-event.event-warning {
+  background-color: #fdd43f;
+}
+
+.rbc-off-range-bg {
+  background-color: #d2d2d20d;
+}
+
+.darkbg .rbc-today {
+  background-color: #8fbece;
+}
+
+/* .rbc-month-row+.rbc-month-row,
+.rbc-day-bg+.rbc-day-bg,
+.rbc-header,
+.rbc-month-view,
+.rbc-toolbar button,
+.rbc-time-content>*+*>* {
+  border-color: #f6f6f6;
+} */
+
+/* .darkbg .rbc-month-row+.rbc-month-row,
+.darkbg .rbc-day-bg+.rbc-day-bg,
+.darkbg .rbc-header,
+.darkbg .rbc-month-view,
+.darkbg .rbc-toolbar button,
+.darkbg .rbc-time-content>*+*>* {
+  border-color: #cdcbcb;
+} */
+
+.rbc-event:focus,
+.rbc-day-slot .rbc-background-event:focus {
+  outline: none;
+}
+
+.darkbg .rbc-toolbar button {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.darkbg .rbc-toolbar button:active,
+.darkbg .rbc-toolbar button.rbc-active {
+  background-color: rgba(0, 0, 0, 0.5);
+  /* border-color: #d2d2d20d; */
+}
+
+.form-control {
+  height: 50px;
+  line-height: 40px;
+  font-size: 18px;
+  width: 100%;
+  border-width: 1px;
+  padding: 5px;
+  border-color: rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+
+.btn {
+  padding: 10px 15px;
+  box-shadow: none !important;
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
+}
+
+.btn-primary {
+  background-color: #2b2b2b;
+}
+
+.btn-secondary {
+  background-color: #1a97f5;
+}
+
+@media (max-width: 767px) {
+  .rbc-btn-group {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+
+  .rbc-toolbar .rbc-toolbar-label {
+    margin-bottom: 15px;
+    display: block;
+  }
+
+  .rbc-calendar {
+    height: 100vh !important;
+  }
+}
+
+.rbc-calendar {
+  min-height: 600px;
+  margin-bottom: .3rem;
+}
+
+
+/* Center the day numbers */
+.rbc-date-cell {
+  text-align: center;
+  padding-top: 3px;
+  padding-left: 4.5px;
+  font-size: smaller;
+}
+
+.rbc-month-row:first-child {
+  border-top: none !important;
+}
+
+.rbc-header {
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #2A3547;
+  font-size: smaller;
+  border-bottom: none !important;
+  border-top: none !important;
+  padding-top: 5px;
+}

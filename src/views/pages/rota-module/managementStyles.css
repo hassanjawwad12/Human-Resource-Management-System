@@ -1,0 +1,44 @@
+.chart-container {
+    position: relative;
+    width: 100%;
+    
+   
+}
+
+.node-container {
+    position: absolute;
+}
+
+.dragging {
+    opacity: 0.6;
+    cursor: move;
+    stroke-dasharray: 0 !important;
+    stroke-width: 0 !important;
+}
+
+.dragging-active {
+    cursor: move;
+    stroke-dasharray: 0 !important;
+    stroke-width: 0 !important;
+}
+
+.drag-enabled .node-container.draggable {
+    cursor: grab;
+}
+
+.node-container.draggable {
+    cursor: pointer;
+}
+
+/* this is applied when dragging is enabled. */
+.drag-enabled:not(.dragging-active) .node.draggable {
+    stroke: grey;
+    stroke-width: 3px;
+    stroke-dasharray: 2px;
+}
+
+.drag-enabled.dragging-active .droppable {
+    stroke: green;
+    stroke-width: 3px;
+    stroke-dasharray: 5px;
+}
